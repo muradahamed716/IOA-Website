@@ -1,0 +1,249 @@
+@font-face{
+    font-family: "AdorshoLipi"; 
+    src:url(fonts/AdorshoLipi-Regular.ttf) format("truetype");
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    font-family: AdorshoLipi;
+    font-size: 19px;
+    color: #242218;
+    background-color: black;
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #fdfbfb;
+    padding: 14px;
+}
+.wrapper_full{
+    width: 100%;
+    background-color:#2C58C5;
+    min-height: 700px;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 1240px;
+}
+.wrapper2{
+    margin: 0 auto;
+    width: 1200px;
+}
+.margin_right{
+	margin-right: 30px;
+}
+.margin_top{
+	margin-top: 30px;
+}
+.logo{
+    color: #fdfbfb;
+    /* padding: 15px; */
+    padding: 20px 19px 30px 0px;
+    /* margin-left: 42px; */
+    float: left;
+    /* display: inline; */
+    width: 404px;
+}
+
+.menu ul{
+    float: right;
+    font-size: 16px;
+}
+.menu ul li{
+    float: left;
+    margin-top: 33px;
+    position:relative;
+    padding-right: 11px;
+    /* margin-right: 22px; */
+    /* background-color: green; */
+}
+
+
+
+.menu ul li ul{
+    position:absolute;
+    left:-999999px;
+    top: 40px;
+    /* background-color: white; */
+    width: 200px;
+}
+.menu ul li:hover ul{
+    left:0px;
+    
+    
+
+}
+.menu ul li ul li a{
+    color:black;
+    /* background-color: green; */
+    display: block;
+    background-color: white;
+    border-bottom: 1px solid #735656;
+    border-top: 1px solid #a28880;
+}
+.menu ul li ul li{
+    margin-top:0px;
+    width:200px;
+    /* border-bottom: 2px solid #735656; */
+}
+.about_course_full{
+    height: 500px;
+    width: 100%;
+    /* background: #274FA7; */
+    color:#fdfbfb;
+    /* margin-top: 20px; */
+}
+.about_course{
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+    margin-top: 64px;
+}
+.about_course h1 {
+    font-size: 49px;
+    line-height: 74px;
+    /* padding: 21px; */
+    padding: 31px -1px;
+    /* margin-top: 0px; */
+}
+.about_course p {
+    font-size: 15px;
+    width: 500px;
+    text-align: justify;
+    padding: 6px;
+    line-height: 29px;
+    float: left;
+}
+.img{
+	float: right;
+	margin-top: 76px;
+	margin-right: 113px;
+	clear: left;
+}
+.img img {
+	width: 524px;
+	height: 450px;
+}
+.myButton {
+    box-shadow: inset 0px 34px 0px -15px #4c60cc;
+    background-color: #2a41c5;
+    border-radius: 3px;
+    /* border: 1px solid #241d13; */
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 11px 26px;
+    text-decoration: none;
+    text-shadow: 0px -1px 0px #3e3c3c;
+    margin-top: 28px;
+    /* line-height: 18px; */
+    margin-left: 10px;
+}
+.myButton:hover{
+    background-color:#b34332;
+}
+.myButton:active{
+    position:relative;
+    top:1px;
+}
+
+.margin_right{
+	margin-right: 30px;
+}
+.wrapper_full{
+    width:100%;
+    overflow: hidden;
+}
+.Wrapper{
+    width: 1000px;
+    margin: 0 auto;
+ 
+   }
+   .footer_bg{
+    background: #635548;
+    height: 44px;
+}
+.footer {
+    text-align: center;
+    padding: 8px;
+    font-size: 15px;
+    color: beige;
+}
+.box{
+	
+float: left;
+	
+width: 351px;
+	
+height: 498px;
+}
+.box_wrap_bg{
+	background: #f1f1f1;
+}
+.long_course h1{
+	text-align: center;
+	padding: 53px 0px;
+	color: #151554;
+	font-size: 37px;
+}
+.box img{
+	width: 350px;
+    height: 185px;
+    border-radius: 3px 3px 0px 0px;
+	}
+.box1{
+	-webkit-box-shadow: -2px 29px 37px 21px rgba(255, 255, 255, 0.07);
+	-moz-box-shadow: -2px 29px 37px 21px rgba(0,0,0,0.07);
+	box-shadow: -2px 29px 37px 21px #e4e4e2;
+	}
+	.box1 h3{
+		font-size: 19px;
+    color: #34347d;
+    margin-left: 21px;
+	}
+	.collumn_txt{
+		padding-bottom: 19px;
+    padding-top: 19px;
+	}
+.io{
+	display: inline-block;
+	width: 29px;
+	height: 29px;
+	border-radius: 100%;
+	background-color:purple;
+	font-size: 15px;
+	text-align: center;
+	}
+.ioa{
+	color: #1c11c1;
+}
+.text{
+	color: #a08c8c;
+}
+.course{
+	color: #28319c;
+}
+.amount{
+	-webkit-box-shadow: -2px 29px 37px 21px rgba(255, 255, 255, 0.07);
+    -moz-box-shadow: -2px 29px 37px 21px rgba(0,0,0,0.07);
+    box-shadow: -2px 29px 37px 21px #e4e4e2;
+    text-align: center;
+    height: 77px;
+    display: block;
+    margin-top: 25px;
+    border-top: 1px solid #e4e4e4;
+}
+.amount p{
+	padding-top: 20px;
+    color: #35356d;
+}
